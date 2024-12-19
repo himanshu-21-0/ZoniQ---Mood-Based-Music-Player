@@ -7,7 +7,7 @@ ZoniQ is an innovative music player that uses facial recognition to detect the u
 
 ### Features
 - 🧠 **Mood Detection**: Utilizes facial recognition to analyze your mood in real-time.
-- 🎶 **Music Recommendation**: Plays tracks that match your mood (happy, sad, relaxed, etc.).
+- 🎶 **Music Recommendation**: Plays tracks that match your mood (happy, sad, angry, surprise, neutral, etc.).
 - ⚡ **Real-Time Processing**: Detects mood and starts playback instantly.
 - 📁 **Customizable Music Library**: Users can add their own music for different moods.
 
@@ -19,10 +19,10 @@ Before starting, ensure you have the following installed:
 2. **Libraries**:
    - OpenCV:  
      pip install opencv-python
-   - TensorFlow/Keras (if used):  
-     pip install tensorflow
-   - Flask (if used for a web setup):  
-     pip install flask
+   - TensorFlow & Numpy:  
+     pip install tensorflow==2.13.0 numpy==1.24.3
+   - Pygame: 
+     pip install pygame
 
 3. **Webcam**: Required for real-time mood detection.
 
