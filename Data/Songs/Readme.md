@@ -17,21 +17,3 @@ Inside the `songs` folder, you will find five subfolders. Please add your songs 
 1. **Choose the right folder**: Based on the mood of the song, select the appropriate folder.
 2. **Upload the song**: Add the song file (e.g., MP3, WAV, etc.) to the relevant folder.
 3. **Naming convention (Optional)**: While not mandatory, it’s a good practice to name the song files descriptively (e.g., `happy_song_01.mp3`, `sad_song_02.wav`).
-
-## Example Folder Structure
-songs/ 
-├── happy/ 
-├── happy_song_01.mp3 
-│ └── happy_song_02.wav 
-├── sad/ 
-├── sad_song_01.mp3 
-└── sad_song_02.wav 
-├── neutral/ 
-├── neutral_song_01.mp3 
-└── neutral_song_02.wav 
-├── surprise/ 
-├── surprise_song_01.mp3 
-└── surprise_song_02.wav 
-├── angry/ 
-├── angry_song_01.mp3 
-└── angry_song_02.wav
