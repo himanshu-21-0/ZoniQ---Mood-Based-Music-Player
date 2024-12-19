@@ -1,0 +1,7 @@
+tensorflow==2.13.0    # TensorFlow for machine learning and mood classification
+numpy==1.24.3         # For numerical operations
+pillow==9.6.1         # For image processing (if applicable)
+scipy==1.10.1         # For scientific computing and signal processing
+opencv-python==4.7.0.72 # For computer vision tasks (e.g., image/video processing)
+playsound==1.3.0      # For playing sound files
+pygame==2.5.2         # For game development and multimedia
