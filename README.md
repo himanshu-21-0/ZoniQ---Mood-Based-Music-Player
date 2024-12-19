@@ -1,28 +1,60 @@
-ZoniQ - Mood Based Music Player
+### ZoniQ - Mood-Based Music Player 🎵
 
-ZoniQ is an innovative mood-based music player that uses facial recognition to detect the user's mood and plays music accordingly. It blends the power of AI with music to enhance your listening experience based on how you're feeling.
+### Description
+ZoniQ is an innovative music player that uses facial recognition to detect the user's mood and plays music accordingly. By blending the power of AI and music, ZoniQ enhances your listening experience by adapting to your emotions.
 
-Features : - 
-    Mood Detection: Utilizes facial recognition to analyze your mood.
-    Music Recommendation: Plays music that matches the detected mood (happy, sad, relaxed, etc.).
-    Real-time Processing: Detects mood and starts playing music instantly.
-    Customizable Music Library: Users can add their own music for different moods.
+---
 
-Prerequisites
+### Features
+- 🧠 **Mood Detection**: Utilizes facial recognition to analyze your mood in real-time.
+- 🎶 **Music Recommendation**: Plays tracks that match your mood (happy, sad, relaxed, etc.).
+- ⚡ **Real-Time Processing**: Detects mood and starts playback instantly.
+- 📁 **Customizable Music Library**: Users can add their own music for different moods.
 
-Before you begin, ensure you have met the following requirements:-
+---
 
-  Python 3.8: The project is built using Python. You can download it from Python's official website.
-  OpenCV: For facial recognition. Install it via pip:
+### Prerequisites
+Before starting, ensure you have the following installed:
+1. **Python 3.8**: Download it from [Python's official website](https://www.python.org/).
+2. **Libraries**:
+   - OpenCV:  
+     pip install opencv-python
+   - TensorFlow/Keras (if used):  
+     pip install tensorflow
+   - Flask (if used for a web setup):  
+     pip install flask
 
-    pip install opencv-python
+3. **Webcam**: Required for real-time mood detection.
 
-TensorFlow/Keras (if used for mood detection):
+---
 
-    pip install tensorflow
+### Installation
+1. Clone the repository:  
+   git clone https://github.com/himanshu-21-0/ZoniQ-Mood_Based_Music_Player.git
+   
+2. Navigate to the project directory:  
+   cd ZoniQ-Mood_Based_Music_Player
+   
+3. Install dependencies: 
+   pip install -r requirements.txt
 
-Flask (if used for web setup):
+4. Run the application:  
+   python ZoniQ.py
 
-    pip install flask
+---
 
-Webcam: Required for real-time facial recognition.
+### Future Enhancements
+- Improve emotion detection accuracy with a larger dataset.
+- Add a web-based interface for broader accessibility.
+- Introduce advanced controls, such as volume adjustment and playlist shuffling.
+
+---
+
+### License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+### Developer
+**Himanshu Singh**  
+[GitHub](https://github.com/himanshu-21-0)
